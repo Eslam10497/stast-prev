@@ -1,0 +1,103 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  text-align: center;
+  background-color: hsl(233, 47%, 7%);
+  color: white;
+}
+
+.main-container {
+  margin: auto;
+  margin-top: 6rem;
+  display: inline-block;
+  position: relative;
+}
+
+.text-container {
+  background-color: hsl(244, 38%, 16%);
+  height: 300px;
+  width: 485px;
+  text-align: left;
+  padding: 40px;
+  display: inline-block;
+  border-radius: 2% 0 0 2%;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 24px 0;
+}
+
+.title {
+  color: hsl(0, 0%, 100%);
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.main-text {
+  color: hsla(0, 0%, 100%, 0.75);
+  width: 70%;
+}
+
+.insights {
+  color: hsl(277, 64%, 61%);
+}
+
+.stats {
+  display: inline-block;
+  margin-right: 50px;
+  margin-left: 0px;
+}
+
+.stats-container {
+  display: inline-block;
+  margin-top: 55px;
+}
+
+.num {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: color: hsl(0, 0%, 100%);
+  margin: 5px 0;
+}
+
+.type {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  color: hsla(0, 0%, 100%, 0.6);
+  margin: 5px 0;
+
+}
+
+.img-container {
+  display: inline-block;
+  position: relative;
+  top: 55px;
+  right: 10px;
+  border-radius: 0 2% 2% 0;
+}
+
+.img {
+  width: 485px;
+  height: 379px;
+  border-radius: 0 2% 2% 0;
+}
+
+.overlay {
+  width: 485px;
+  height: 379px;
+  border-radius: 0 2% 2% 0;
+  background-color: hsl(275, 80%, 40%,0.5);
+  position: absolute;
+  right: 10px;
+  top: 55px;
+}
